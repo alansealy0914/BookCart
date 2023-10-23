@@ -47,7 +47,7 @@ namespace BookCart.Controllers
             return response;
         }
 
-        /*string GenerateJSONWebToken(UserMaster userInfo)
+        string GenerateJSONWebToken(UserMaster userInfo)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:SecretKey"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
@@ -70,6 +70,6 @@ namespace BookCart.Controllers
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
-        }/*
+        }
     }
 }
