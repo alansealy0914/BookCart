@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\2Active\\BookCart\\BookCart.csproj": {}
+    "C:\\0914\\BookCart\\BookCart.csproj": {}
   },
   "projects": {
-    "C:\\2Active\\BookCart\\BookCart.csproj": {
+    "C:\\0914\\BookCart\\BookCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2Active\\BookCart\\BookCart.csproj",
+        "projectUniqueName": "C:\\0914\\BookCart\\BookCart.csproj",
         "projectName": "BookCart",
-        "projectPath": "C:\\2Active\\BookCart\\BookCart.csproj",
+        "projectPath": "C:\\0914\\BookCart\\BookCart.csproj",
         "packagesPath": "C:\\Users\\alans\\.nuget\\packages\\",
-        "outputPath": "C:\\2Active\\BookCart\\obj\\",
+        "outputPath": "C:\\0914\\BookCart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
