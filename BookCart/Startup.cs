@@ -73,7 +73,7 @@ namespace BookCart
                 c.IncludeXmlComments(xmlPath);
             });
 
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            /*services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
                 options.RequireHttpsMetadata = false;
@@ -91,7 +91,7 @@ namespace BookCart
                 };
 
                 services.AddCors();
-            });
+            });*/
 
             services.AddAuthorization(config =>
             {
