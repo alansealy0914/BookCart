@@ -325,3 +325,16 @@ C:\Users\alans\repository.v2\BookCart\obj\Debug\net6.0\BookCart.xml
 C:\Users\alans\repository.v2\BookCart\obj\Debug\net6.0\BookCart.pdb
 C:\Users\alans\repository.v2\BookCart\obj\Debug\net6.0\BookCart.genruntimeconfig.cache
 C:\Users\alans\repository.v2\BookCart\obj\Debug\net6.0\ref\BookCart.dll
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.csproj.AssemblyReference.cache
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.AssemblyInfoInputs.cache
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.AssemblyInfo.cs
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.csproj.CoreCompileInputs.cache
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.RazorAssemblyInfo.cache
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.RazorAssemblyInfo.cs
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.dll
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\refint\BookCart.dll
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.xml
+C:\Users\alans\Desktop\repo.v5\BookCart\obj\Debug\net6.0\BookCart.pdb
