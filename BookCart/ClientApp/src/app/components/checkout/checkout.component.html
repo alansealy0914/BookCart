@@ -82,8 +82,8 @@
                         <tr *ngFor="let item of checkOutItems.orderDetails">
                             <td><a [routerLink]="['/books/details/',item.book.bookId]">{{item.book.title}}</a></td>
                             <td>{{item.quantity}}</td>
-                            <td>{{item.book.price| currency : 'INR'}}</td>
-                            <td>{{ item.book.price * item.quantity | currency : 'INR'}}</td>
+                            <td>{{item.book.price| currency : 'USD'}}</td>
+                            <td>{{ item.book.price * item.quantity | currency : 'USD'}}</td>
                         </tr>
                     </table>
                     <tfoot class="table">
@@ -91,7 +91,7 @@
                             <th></th>
                             <th></th>
                             <td>Grand Total</td>
-                            <th>{{totalPrice| currency : 'INR' }}</th>
+                            <th>{{totalPrice| currency : 'USD' }}</th>
                         </tr>
                     </tfoot>
                 </mat-card-content>
