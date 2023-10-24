@@ -2634,11 +2634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alans\\Desktop\\repo.v5\\BookCart\\BookCart.csproj",
+      "projectUniqueName": "C:\\Users\\alans\\Desktop\\repo.v6\\BookCart\\BookCart.csproj",
       "projectName": "BookCart",
-      "projectPath": "C:\\Users\\alans\\Desktop\\repo.v5\\BookCart\\BookCart.csproj",
+      "projectPath": "C:\\Users\\alans\\Desktop\\repo.v6\\BookCart\\BookCart.csproj",
       "packagesPath": "C:\\Users\\alans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alans\\Desktop\\repo.v5\\BookCart\\obj\\",
+      "outputPath": "C:\\Users\\alans\\Desktop\\repo.v6\\BookCart\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
