@@ -33,13 +33,13 @@ export class LoginComponent implements OnInit, OnDestroy {
     password: new FormControl('', Validators.required)
   });
 
-  /*et username() {
+  get username() {
     return this.loginForm.get('username');
   }
 
   get password() {
     return this.loginForm.get('password');
-  }*/
+  }
 
   ngOnInit() {
     this.subscriptionService.userData.asObservable()
