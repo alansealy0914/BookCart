@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EU9S5slQIHFLPa73CIJWKmPIgadl7y/FbHK3wrb+tLCmqZl0H8C+97yRIUjwCxDr8XJgYtUSOlAiDkWl/diixw==",
+  "dgSpecHash": "k9fwC5LaRHAAW64KV6i2eODnuLUBIleO+uQru5IoGtYOMM/Fd2j92wdQJR4UmOyFaWNlrsN48Zj6miIGPSiCNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alans\\Desktop\\repo.v5\\BookCart\\BookCart.csproj",
+  "projectFilePath": "C:\\master\\BookCart\\BookCart.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alans\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alans\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.5\\microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",
