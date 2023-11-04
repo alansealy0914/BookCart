@@ -2,7 +2,7 @@
     <mat-toolbar-row>
         <div class="brand-title">
             <button mat-button [routerLink]='["/"]'>
-                <mat-icon>book</mat-icon> Book Store Sales
+                <mat-icon>book</mat-icon> POP THAT ISH
             </button>
         </div>
         <div>
@@ -18,9 +18,16 @@
             </button>
             <button mat-button *ngIf="!userData.isLoggedIn" [routerLinkActive]='["link-active"]'
                 [routerLink]='["/login"]'>Login</button>
-            <button mat-button *ngIf="userData.userTypeId==userType.admin" [routerLink]='["/admin/books"]'>Admin
-                Panel</button>
 
+            <button mat-button *ngIf="userData.userTypeId==userType.admin" [routerLink]='["/admin/books"]'>Admin
+                Panel
+            </button>
+            <button mat-button *ngIf="userData.userTypeId==userType.admin">
+                <a class="github-link" href="/swagger/index.html" target="_blank">
+                    <span><img src="https://static1.smartbear.co/swagger/media/assets/swagger_fav.png" /></span>
+                    Swagger
+                </a>
+            </button>
             <ng-container *ngIf="userData.isLoggedIn">
                 <button mat-button [matMenuTriggerFor]="menu">
                     <mat-icon>account_circle</mat-icon> {{userData.username}} <mat-icon>arrow_drop_down</mat-icon>
@@ -31,7 +38,7 @@
                 </mat-menu>
             </ng-container>
             <app-theme-picker></app-theme-picker>
-            <button mat-button>
+            <!--<button mat-button>
                 <a class="github-link" href="/swagger/index.html" target="_blank">
                     <span><img src="https://static1.smartbear.co/swagger/media/assets/swagger_fav.png" /></span>
                     Swagger
@@ -39,7 +46,7 @@
             </button>
             <button mat-button><a class="github-link" href="https://github.com/AnkitSharma-007/bookcart"
                     target="_blank"><i class="fa fa-github"></i> GitHub</a>
-            </button>
+            </button>-->
         </div>
     </mat-toolbar-row>
 </mat-toolbar>
