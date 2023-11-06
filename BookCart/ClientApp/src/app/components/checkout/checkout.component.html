@@ -42,14 +42,22 @@
                             <input matInput placeholder="State" formControlName="state" required>
                             <mat-error *ngIf="state.touched && state.invalid">State is required</mat-error>
                         </mat-form-field>
-                        <mat-card-actions align="right">
+                        <!--<mat-card-actions align="right">
                             <div fxFlex></div>
                             <button type="submit" mat-raised-button color="primary">
                                 <a class="text-white" href="/">CashApp</a>
                                 </button>
                             <button type="button" mat-raised-button color="warn"
                                 [routerLink]='["/shopping-cart"]'>CANCEL</button>
-                                <p class="p-2">Note: CashApp payments are made to $ShanteeRichardson</p>
+                                <p class="p-2">Note: Payments must be made to $ShanteeRichardson through CashApp</p>
+                        </mat-card-actions>-->
+                        <mat-card-actions align="right">
+                            <div fxFlex></div>
+                            <button type="submit" mat-raised-button color="primary">Place Order</button>
+                            <p class="p-2" align="center">Note: All orders must include Order Id and must be paid through CashApp
+                                at $ShanteeRichardson.</p>
+                            <button type="button" mat-raised-button color="warn"
+                                [routerLink]='["/shopping-cart"]'>CANCEL</button>
                         </mat-card-actions>
 
                     </form>
