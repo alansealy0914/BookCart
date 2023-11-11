@@ -1,11 +1,11 @@
 <div class="row no-gutters pt-0">
-  <div class="col-md-3 col-sm-12">
+  <div class="col-md-2 col-sm-12">
     <div class="filter-container-fluid">
       <app-book-filter [category]="category"></app-book-filter>
       <app-price-filter (priceValue)="filterPrice($event)"></app-price-filter>
     </div>
   </div>
-  <div class="col mb-3">
+  <div class="col ml-3 mb-3">
     <div *ngIf="books?.length>0; else nodata" class="d-flex justify-content-start card-deck-container mb-4">
       <div *ngFor="let book of books" class="p-1">
         <app-book-card [book]="book"></app-book-card>
