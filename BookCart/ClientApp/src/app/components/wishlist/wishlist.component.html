@@ -43,7 +43,7 @@
               <td> <img matTooltip={{item.title}} matTooltipPosition="after" src="/Upload/{{item.coverFileName}}">
               </td>
               <td><a [routerLink]="['/books/details/',item.bookId]">{{item.title}}</a></td>
-              <td>{{ item.price | currency : 'INR' }}</td>
+              <td>{{ item.price | currency : 'USD' }}</td>
               <td>
                 <app-addtocart [bookId]="item.bookId"></app-addtocart>
               </td>
